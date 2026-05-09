@@ -73,6 +73,7 @@ async def wait_virustotal_and_send(
 async def start_handler(message: Message):
     await message.answer(
         "Assalomu alaykum!\n\n"
+        "Men IIV Akademiyasi 2-o‘quv kursi kursantlari tomonidan yaratilgan APK xavfsizlik tekshiruv botiman👨‍✈️.\n\n"
         "Menga <b>.apk</b> fayl yuboring. Men uni quyidagilar bo‘yicha tekshiraman:\n"
         "• VirusTotal bazasi va antivirus natijalari;\n"
         "• APK ruxsatlari;\n"
