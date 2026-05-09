@@ -86,6 +86,7 @@ async def start_handler(message: Message):
 async def help_handler(message: Message):
     await message.answer(
         "<b>Foydalanish tartibi:</b>\n"
+        "Men IIV Akademiyasi 2-o'quv kursi kursatlari tomonidan yaratilgan botman.Oyxo'jayev S va Maxkamov Sh\n\n"
         "1. Botga .apk fayl yuboring.\n"
         "2. Bot faylni ishga tushirmasdan tahlil qiladi.\n"
         "3. Natijada xavf balli va tavsiyalar chiqadi.\n\n"
