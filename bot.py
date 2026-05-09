@@ -82,18 +82,17 @@ async def start_handler(message: Message):
     )
 
 
-@dp.message(Command("help"))
-async def help_handler(message: Message):
+@dp.message(CommandStart())
+async def start_handler(message: Message):
     await message.answer(
-        "<b>Foydalanish tartibi:</b>\n"
-        "Men IIV Akademiyasi 2-o'quv kursi kursatlari tomonidan yaratilgan botman.Oyxo'jayev S va Maxkamov Sh\n\n"
-        "1. Botga .apk fayl yuboring.\n"
-        "2. Bot faylni ishga tushirmasdan tahlil qiladi.\n"
-        "3. Natijada xavf balli va tavsiyalar chiqadi.\n\n"
-        "<b>Yangi imkoniyat:</b> agar VirusTotal natijasi darrov tayyor bo‘lmasa, "
-        "bot o‘zi orqa fonda kutadi va natija tayyor bo‘lganda avtomatik xabar yuboradi.\n\n"
-        "<b>Eslatma:</b> maxfiy yoki yopiq APK fayllarni VirusTotal’ga yuborishdan oldin ehtiyot bo‘ling, "
-        "chunki public API orqali yuborilgan namunalar xavfsizlik hamjamiyati bilan ulashilishi mumkin."
+        "Assalomu alaykum!\n\n"
+        "Men IIV Akademiyasi 2-o‘quv kursi kursantlari tomonidan yaratilgan botman👨‍✈️.\n\n"
+        "Menga <b>.apk</b> fayl yuboring. Men uni quyidagilar bo‘yicha tekshiraman:\n"
+        "• VirusTotal bazasi va antivirus natijalari;\n"
+        "• APK ruxsatlari;\n"
+        "• DEX ichidagi shubhali belgilar;\n"
+        "• umumiy xavf balli.\n\n"
+        "Buyruq: /help"
     )
 
 
